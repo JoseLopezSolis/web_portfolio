@@ -1,2 +1,2 @@
 # web_portfolio
-My web portfolio 👨‍💻
+In this repository I will storage al the changes to my personal web portfolio
