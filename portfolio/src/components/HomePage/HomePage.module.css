@@ -1,0 +1,15 @@
+.personal-info {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.img {
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
