@@ -1,15 +1,39 @@
 .personal-info {
   color: #fff;
-  font-size: 1.2rem;
-  line-height: 1.4;
+  line-height: 1.7;
 }
 
 .img {
-  width: 300px;
+  width: 330px;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 30;
+  transform: translate(-150%, -50%);
+  z-index: 10;
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  cursor: pointer;
+}
+
+.img:hover {
+  scale: 1.2;
+  transform: translate(-125%, -50%);
+
+  cursor: pointer;
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.about {
+  color: #ffffff6e;
+}
+
+.specialist {
+  color: #00e1ff;
+  font-weight: bold;
+  font-family: "Rock Salt", cursive;
+  letter-spacing: 3px;
 }
